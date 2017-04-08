@@ -88,6 +88,8 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# PyCharm stuff
+.idea
+
 # Config file
 config_local.py
-
