@@ -1,8 +1,9 @@
 # temperature-logger
 
 ## Requirements
-* W1ThermSensor https://github.com/timofurrer/w1thermsensor
 * InfluxDB-Python https://github.com/influxdata/influxdb-python
+* schedule https://github.com/dbader/schedule
+* W1ThermSensor https://github.com/timofurrer/w1thermsensor
 
 ## Setting DS18B20 sensor
 
