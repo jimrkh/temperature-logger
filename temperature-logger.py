@@ -4,7 +4,7 @@ import schedule
 
 from w1thermsensor import W1ThermSensor
 from config import (
-    DB_HOST
+    INFLUXDB_HOST
 )
 
 
