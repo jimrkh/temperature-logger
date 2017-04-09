@@ -1,5 +1,9 @@
 # temperature-logger
 
+## Requirements
+* W1ThermSensor https://github.com/timofurrer/w1thermsensor
+* InfluxDB-Python https://github.com/influxdata/influxdb-python
+
 ## Setting DS18B20 sensor
 
 For the sensor temperature resolution setting you have to use a standard GPIO with a pull up resistor and only one sensor and type:
@@ -21,7 +25,7 @@ Now type 9,10,11, or 12 to change resolution:
 * 11 bit : 0.125°c
 * 12 bit : 0.0625°c
 
-###On Raspberry Pi 2
+### On Raspberry Pi 2
 
 (ignore any errors:)
 
