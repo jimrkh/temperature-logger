@@ -5,6 +5,9 @@
 * schedule https://github.com/dbader/schedule
 * W1ThermSensor https://github.com/timofurrer/w1thermsensor
 
+## Wiring
+![Wiring](wiring.png)
+
 ## DS18B20 sensor settings
 
 For the sensor temperature resolution setting you have to use a standard GPIO with a pull up resistor and only one sensor and type:
