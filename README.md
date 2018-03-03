@@ -38,7 +38,7 @@ $ wget https://raw.githubusercontent.com/blogmotion/BitBangingDS18B20/master/con
 $ sudo nano configDS18B20.c
 ```
 
-Change "BCM2708_PERI_BASE "0x20000000" to BCM2708_PERI_BASE "0x3F000000" (ignore any errors)
+Change BCM2708_PERI_BASE "0x20000000" to BCM2708_PERI_BASE "0x3F000000" (ignore any errors)
 Save (Ctrl+X, Y, ENTER)
 
 ```bash
@@ -72,5 +72,6 @@ $ deactivate
 ### Supervisor
 
 ```bash
-$ sudo ln -s ~/temperature-logger/supervisor.conf /etc/supervisor/conf.d/temperature-logger.conf
+$ sudo ln -s ~/temperature-logger/supervisor-temperature.conf /etc/supervisor/conf.d/temperature-logger.conf
+$ sudo ln -s ~/temperature-logger/supervisor-temperature-humidity-DHT.conf /etc/supervisor/conf.d/temperature-humidity-logger-DHT.conf
 ```

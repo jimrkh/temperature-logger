@@ -14,6 +14,11 @@ INFLUXDB_PASSWD = ''
 SENSOR_LOCATIONS_NA = "N/A"
 SENSOR_LOCATIONS = {}  # key = sensor.id, value = <your sensor location name>
 
+# Humidity sensor
+HUMIDITY_SENSOR_PIN = 2
+HUMIDITY_SENSOR_TYPE = "2302"
+
+
 try:
     from config_local import *
 except ImportError:
