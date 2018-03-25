@@ -14,9 +14,13 @@ INFLUXDB_PASSWD = ''
 SENSOR_LOCATIONS_NA = "N/A"
 SENSOR_LOCATIONS = {}  # key = sensor.id, value = <your sensor location name>
 
-# Humidity sensor
-HUMIDITY_SENSOR_PIN = 2
-HUMIDITY_SENSOR_TYPE = "2302"
+# Humidity sensor DHT
+HUMIDITY_SENSOR_DHT_PIN = 2
+HUMIDITY_SENSOR_DHT_TYPE = "2302"
+
+# Humidity sensor DHT
+HUMIDITY_SENSOR_RAW1WIRE_ID = ""
+HUMIDITY_SENSOR_RAW1WIRE_PATH_TEMPLATE = "/sys/bus/w1/devices/10-{}/w1_slave"
 
 
 try:

@@ -74,4 +74,5 @@ $ deactivate
 ```bash
 $ sudo ln -s ~/temperature-logger/supervisor-temperature.conf /etc/supervisor/conf.d/temperature-logger.conf
 $ sudo ln -s ~/temperature-logger/supervisor-temperature-humidity-DHT.conf /etc/supervisor/conf.d/temperature-humidity-logger-DHT.conf
+$ sudo ln -s ~/temperature-logger/supervisor-temperature-humidity-raw1wire.conf /etc/supervisor/conf.d/temperature-humidity-logger-raw1wire.conf
 ```
